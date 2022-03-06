@@ -11,5 +11,6 @@ module{
         safeTransferFromData:shared(from:Principal,to:Principal,tokenId:Nat, data:Nat)-> async ();
         approve:shared(to:Principal, tokenId:Nat)-> async ();
         getApproved:shared(tokenId:Nat)-> async ?Principal; 
+        burn:shared(tokenId:Nat)-> async();
     };
 };
