@@ -79,6 +79,8 @@ actor Blog {
     public query func read() : async Nat {
         idGenerator
     };
+    
+    public query func balanceofUser(address: )
 
     /// ------------------------ private functions -------------------------- ///
     func getIdAndIncrementOne() : Nat {
